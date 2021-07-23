@@ -10,20 +10,19 @@ p{
     line-height: 100%;
     text-align: center;
     text-decoration: underline;
-  }
-  body{
+}
+body{
     font-size: 16px;
-  }
-  .background-amarelo{
+}
+.background-amarelo{
     background-color: yellow;
-  }
-  .background-vermelho{
+}
+.background-vermelho{
     background-color: red;
-  }
-  .background-marron{
+}
+.background-marron{
     background-color: brown;
-  }
-
+}
 ul{
     background-color: green;
 }
