@@ -1,9 +1,10 @@
-h1{
+h1 {
     font-family: sans-serif;
     font-size: 65px;
     color: orange;
 }
-p{
+
+p {
     font-weight: 600;
     font-size: 3em;
     font-style: italic;
@@ -11,21 +12,27 @@ p{
     text-align: center;
     text-decoration: underline;
 }
-body{
+
+body {
     font-size: 16px;
 }
-.background-amarelo{
+
+.background-amarelo {
     background-color: yellow;
 }
-.background-vermelho{
+
+.background-vermelho {
     background-color: red;
 }
-.background-marron{
+
+.background-marron {
     background-color: brown;
 }
-ul{
+
+ul {
     background-color: green;
 }
-.tag-background{
+
+.tag-background {
     background-color: indigo;
 }
