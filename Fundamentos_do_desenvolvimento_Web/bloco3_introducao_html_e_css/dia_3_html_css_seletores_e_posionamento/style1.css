@@ -22,3 +22,8 @@ div:nth-of-type(4) {
 div:nth-of-type(5) {
     background-color: rgb(221, 130, 175);
 }
+
+h3 {
+    width: 25px;
+    color: white;
+}
