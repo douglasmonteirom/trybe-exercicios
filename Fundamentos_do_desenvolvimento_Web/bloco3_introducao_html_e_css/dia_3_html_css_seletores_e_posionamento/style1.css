@@ -28,3 +28,7 @@ h3 {
     width: 25px;
     color: white;
 }
+
+div:nth-child(2n-1) {
+    font-style: italic;
+}
