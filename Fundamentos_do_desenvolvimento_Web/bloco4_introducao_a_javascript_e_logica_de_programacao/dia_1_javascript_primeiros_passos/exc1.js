@@ -1,6 +1,6 @@
-let numeroA = 0;
-let numeroB = 25;
-let numeroC = 35;
+let numeroA = 49;
+let numeroB = 50;
+let numeroC = 80;
 let resultado;
 
 //Adição (a + b)
@@ -52,4 +52,22 @@ if(numeroA>0){
     console.log('Número negativo')
 }else {
     console.log('O Número é zero')
+}
+
+//Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. 
+//Retorne true se os ângulos representarem os ângulos de um triângulo e false , caso contrário. 
+//Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
+let angulos;
+
+if(numeroA>0 && numeroB>0 && numeroC>0){
+    if(numeroA+numeroB+numeroC == 180){
+        angulos = true;
+        console.log(angulos)
+    }else{
+        angulos = false;
+        console.log('Existe algum angulo invalido')
+    }
+}else{
+   angulos = false;
+   console.log('Existe algum angulo invalido')
 }
