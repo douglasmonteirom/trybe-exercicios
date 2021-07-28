@@ -71,3 +71,29 @@ if(numeroA>0 && numeroB>0 && numeroC>0){
    angulos = false;
    console.log('Existe algum angulo invalido')
 }
+
+//Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+let pecaXadrez = 'Bispo';
+
+switch (pecaXadrez.toLowerCase()){
+    case 'peao':
+        console.log(pecaXadrez);
+        console.log('Anda apenas 1 casa para frente/tras ou lado');
+        break;
+    case 'bispo':
+        console.log(pecaXadrez);
+        console.log('Anda na diagonal');
+        break;
+    case 'torre':
+        console.log(pecaXadrez);
+        console.log('Anda para frente/tras ou lados');
+        break;
+    case 'rainha':
+        console.log(pecaXadrez);
+        console.log('Anda em qualquer posição');
+        break;
+    case 'rei':
+        console.log(pecaXadrez);
+        console.log('Anda apenas 1 casa em qualquer direção');
+        break;
+}
