@@ -1,4 +1,4 @@
-let numeroA = 55;
+let numeroA = 0;
 let numeroB = 25;
 let numeroC = 35;
 let resultado;
@@ -41,4 +41,15 @@ if(numeroA > numeroB && numeroA > numeroC){
     console.log('O maior é o numero B')
 }else{
     console.log('O maior é o numero C')
+}
+
+//Faça um programa que, dado um valor definido numa variável, 
+//retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
+
+if(numeroA>0){
+    console.log('Número positivo')
+}else if(numeroA<0){
+    console.log('Número negativo')
+}else {
+    console.log('O Número é zero')
 }
