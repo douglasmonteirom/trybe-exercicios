@@ -96,4 +96,6 @@ switch (pecaXadrez.toLowerCase()){
         console.log(pecaXadrez);
         console.log('Anda apenas 1 casa em qualquer direção');
         break;
+    default:
+        console.log('Peça invalida');
 }
