@@ -22,6 +22,25 @@ if (n > 1) {
         imprime += '*';
         console.log(imprime);
     }
+    imprime = ''; // seta para o proximo exercicio.
+}
+
+//Agora inverta o lado do triângulo
+
+let cont = 1;
+let cont2 = 4;
+
+for (let index = 0; index < n; index++) {
+    for (let index = 0; index < n - cont; index++) {
+        imprime += ' ';
+
+    }
+    for (let index = 0; index < n - cont2; index++) {
+        imprime += '*';
+    }
+    cont++;
+    cont2--;
+    console.log(imprime);
     imprime = '';
 }
 
