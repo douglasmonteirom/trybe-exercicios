@@ -44,3 +44,24 @@ for (let index = 0; index < n; index++) {
     imprime = '';
 }
 
+//Depois, faça uma pirâmide com n asteriscos de base:
+
+let conta = 3;
+let conta2 = 4;
+
+for (let index = 0; index < 3; index++) {
+    for (let index = 0; index < n - conta; index++) {
+        imprime += ' ';
+    }
+    for (let index = 0; index < n - conta2; index++) {
+        imprime += '*';
+    }
+    for (let index = 0; index < n - conta; index++) {
+        imprime += ' ';
+    }
+    conta++;
+    conta2-=2;
+    console.log(imprime);
+    imprime = '';
+}
+
