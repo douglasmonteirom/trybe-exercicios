@@ -1,0 +1,61 @@
+.listOrder{
+    background-color: yellow;
+}
+.listOrder li:nth-of-type(2n+1){
+    text-transform: uppercase;
+}
+.listOrder li:nth-of-type(2n){
+    color: green;
+}
+h1, h3{
+    color: red;
+}
+h1,h3 em{
+    font-size: 40px;
+    border: solid black 1px;
+}
+li{
+    font-size: 20px;
+
+}
+li em{
+    font-weight: 700;
+}
+
+.listProg li:nth-of-type(1){
+    color: blue;
+}
+.listProg li:nth-of-type(2){
+    color: blue;
+}
+.listProg li:nth-of-type(3){
+    color: blue;
+}
+.listProg li:nth-child(2){
+    background-color: pink;
+}
+.listProg li:nth-child(3){
+    background-color: pink;
+}
+.maiorAliado li:nth-of-type(1):hover{
+    text-decoration: none;
+    color: orange;
+    font-weight: 700;
+}
+.maiorAliado li:nth-of-type(2):hover{
+    text-decoration: none;
+    color: green;
+    font-weight: 700;
+}
+.maiorAliado li:nth-of-type(3):hover{
+    color: black;
+    font-weight: 700;
+}
+.maiorAliado li:nth-of-type(4):hover{
+    color: yellow;
+    font-weight: 700;
+}
+.maiorAliado li:nth-of-type(5):hover{
+    color: green;
+    font-weight: 700;
+}
