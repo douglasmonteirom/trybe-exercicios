@@ -2,3 +2,15 @@ ul li{
     display: inline-block;
     margin-inline: 15px;
 }
+
+th{
+    width: 90px;
+    border: solid 2px;
+}
+table{
+    border: ridge;
+}
+
+img{
+    width: 400px;
+}
