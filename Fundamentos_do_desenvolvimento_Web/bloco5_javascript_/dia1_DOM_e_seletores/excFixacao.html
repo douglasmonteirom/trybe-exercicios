@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="class-paragraphs">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="class-paragraphs">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById('page-title').innerText = 'Titanique!';
+      document.getElementById('second-paragraph').innerText = 'Subindo a bordo!';
+      document.getElementById('subtitle').innerText = 'A comica historia de um grande navio!';
+      document.getElementsByClassName('class-paragraphs')[0].innerText = 'alterei pelas classes'
+      document.getElementsByTagName('h4')[0].innerText = 'Alterei pela Tag Name'
+    </script>
+  </body>
+</html>
