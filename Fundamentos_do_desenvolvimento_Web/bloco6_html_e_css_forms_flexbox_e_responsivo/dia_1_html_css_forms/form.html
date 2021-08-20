@@ -56,6 +56,30 @@
                 </label>
             </div>
         </fieldset>
+        <fieldset>
+            <legend>Ultimo emprego</legend>
+            <div>
+                <p>Resumo do seu ultimo emprego:</p>
+                <textarea name="resumo" id="texto-resumo-curriculo" maxlength="1000" cols="30" rows="10" required></textarea>
+            </div>
+            <div>
+                <label for="input-cargo"> Cargo:
+                    <input type="text" name="cargo" id="input-cargo" max="40" required> 
+                </label>
+            </div>
+            <div>
+                <label for="input-resumo-cargo">Descrição do cargo:</label>
+                <textarea name="resumo-cargo" id="input-resumo-cargo" maxlength="500" cols="30" rows="10" required></textarea>
+            </div>
+            <div>
+                <label for="data-inicio">Data de Inicio</label>
+                <input type="date" name="" id="data-inicio" required>
+            </div>
+        </fieldset>
+        <div>
+            <button>Salvar Curriculo</button>
+            <button type="reset" >Limpar dados</button>
+        </div>
     </form>
 </body>
 
