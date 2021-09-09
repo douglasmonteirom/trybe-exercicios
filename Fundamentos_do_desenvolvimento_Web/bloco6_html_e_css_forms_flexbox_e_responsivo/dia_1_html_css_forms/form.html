@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="GET">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="input-nome">Nome:
+                    <input type="text" name="nome" id="input-nome" max="40" required>
+                </label>
+            </div>
+            <div>
+                <label for="input-email">E-mail:
+                    <input type="email" name="e-mail" id="input-email" max="50" required>
+                </label>
+            </div>
+            <div>
+                <label for="input-cpf">CPF:
+                    <input type="text" name="cpf" id="input-cpf" max="11" required>
+                </label>
+            </div>
+            <div>
+                <label for="input-endereco">Endereço:
+                    <input type="text" name="" id="input-endereco" max="200" required>
+                </label>
+            </div>
+            <div>
+                <label for="input-cidade">Cidade:
+                    <input type="text" id="input-cidade" max="28" required>
+                </label>
+
+            </div>
+            <div>
+                <label for="input-estado">Estado:
+                    <select name="estado" id="input-estado" required>
+                        <option value="SC">SC</option>
+                        <option value="RS">RS</option>
+                        <option value="MG">MG</option>
+                    </select>
+                </label>
+            </div>
+            <div >
+                <label for="input-casa">
+                    <input type="radio" name="moradia" id="input-casa" required> Casa
+                </label>
+                <label for="input-apartamento">
+                    <input type="radio" name="moradia" id="input-apartamento" required> Apartamento
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Ultimo emprego</legend>
+            <div>
+                <p>Resumo do seu ultimo emprego:</p>
+                <textarea name="resumo" id="texto-resumo-curriculo" maxlength="1000" cols="30" rows="10" required></textarea>
+            </div>
+            <div>
+                <label for="input-cargo"> Cargo:
+                    <input type="text" name="cargo" id="input-cargo" max="40" required> 
+                </label>
+            </div>
+            <div>
+                <label for="input-resumo-cargo">Descrição do cargo:</label>
+                <textarea name="resumo-cargo" id="input-resumo-cargo" maxlength="500" cols="30" rows="10" required></textarea>
+            </div>
+            <div>
+                <label for="data-inicio">Data de Inicio</label>
+                <input type="date" name="" id="data-inicio" required>
+            </div>
+        </fieldset>
+        <div>
+            <button>Salvar Curriculo</button>
+            <button type="reset" >Limpar dados</button>
+        </div>
+    </form>
+</body>
+
+</html>
