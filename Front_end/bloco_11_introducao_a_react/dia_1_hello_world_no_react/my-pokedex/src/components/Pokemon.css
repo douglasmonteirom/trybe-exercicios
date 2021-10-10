@@ -1,0 +1,10 @@
+.boxPokemon {
+    display: flex;
+    border: solid gray 1px;
+    border-radius: 15px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    
+}

@@ -1,0 +1,16 @@
+.pokedexClass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokedexBtn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.btn{
+    margin: 10px;
+}
