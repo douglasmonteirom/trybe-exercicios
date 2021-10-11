@@ -27,13 +27,13 @@ class Content extends React.Component {
     
     render() {
         return(
-            conteudos.map((element,index) => {
+            conteudos.map((element) => {
                 return (
-                <div key={index}>
+                <section key={element.bloco.toString()}>
                     <p>O conteudo é: {element.conteudo}</p>
                     <p>Status: {element.status}</p>
                     <p>Bloco: {element.bloco}</p>
-                </div>
+                </section>
                 )
             })
         )
